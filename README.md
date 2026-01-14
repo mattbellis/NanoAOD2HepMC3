@@ -28,3 +28,14 @@ to get a list of the containers. From the `NAMES` field, I grab the name of the 
 Right now, in the container I get a beam mismatch error when I run
 
 `rivet -a MC_JETS ./test_output.hepmc3`
+
+# Testing with ATLAS
+
+From Tomasz Procter:
+
+```
+No worries, as far as I'm aware that opendata entry exists as a placeholder/reference for the atlas open data hepmc files. To actually dowload them, you need to use atlas opendata magic (https://opendata.atlas.cern/docs/data/atlasopenmagic)
+If you want a quick supply of small files for testing, then maybe I could suggest https://rivetval.web.cern.ch/rivetval/HEPMC (these are the files used for rivet validation/CI), you probably want some of the LHC-*-13-* ones.
+They're only a 1000 events each so much easier for getting to grips with quickly. 
+
+```
