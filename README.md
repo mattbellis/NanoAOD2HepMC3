@@ -1,5 +1,19 @@
 Converter code. 
 
+# Installing Rivet
+https://gitlab.com/hepcedar/rivet/-/blob/release-4-1-x/doc/tutorials/installation.md
+
+
+Commented out this section of the bootstrap
+
+```
+## Make & activate installation directory as a Python venv, set up for bash completion scripts and multi-arch libs
+#if [[ "$USE_VENV" == 1 ]]; then
+    #$PYTHON_EXE -m venv $INSTALL_PREFIX
+    #source $INSTALL_PREFIX/bin/activate
+    #pip install --upgrade pip
+#fi
+```
 
 # Testing with Rivet
 
